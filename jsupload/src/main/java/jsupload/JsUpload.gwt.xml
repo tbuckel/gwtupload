@@ -1,8 +1,0 @@
-<module rename-to="jsupload">
-  <inherits name="jsupload.JsUploadLib" />
-  <entry-point class="jsupload.client.JsUpload"/>
-  <set-property name="export" value="yes" />
-  <set-property name="compiler.stackMode" value="strip"/>
-  <add-linker name="xsiframe"/>
-  <collapse-all-properties />
-</module>
